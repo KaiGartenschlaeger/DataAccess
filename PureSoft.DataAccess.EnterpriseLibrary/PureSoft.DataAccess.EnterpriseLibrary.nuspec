@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+
+  <metadata>
+    <id>PureSoft.DataAccess.EnterpriseLibrary</id>
+    <version>1.0.0</version>
+    <title>PureSoft.DataAccess.EnterpriseLibrary</title>
+    <authors>Kai Gartenschläger</authors>
+    <owners>Kai Gartenschläger</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Dient zum Zugriff auf die Datenbank über eine Query Architekur.
+    </description>
+    <releaseNotes>
+      Initialie Version
+    </releaseNotes>
+
+    <dependencies>
+      <dependency id="PureSoft.DataAccess" version="2017.3.26.5" />
+      <dependency id="EnterpriseLibrary.Common" version="6.0.0" />
+      <dependency id="EnterpriseLibrary.Data" version="6.0.0" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="bin\Release\PureSoft.DataAccess.EnterpriseLibrary.dll" target="lib\Net45" />
+    <file src="bin\Release\PureSoft.DataAccess.EnterpriseLibrary.xml" target="lib\Net45" />
+    <file src="bin\Release\PureSoft.DataAccess.EnterpriseLibrary.pdb" target="lib\Net45" />
+  </files>
+
+</package>
