@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PureSoft.DataAccess
+namespace PureFreak.DataAccess
 {
     public abstract class DataQueryBase<TDataProvider>
         where TDataProvider : DataProvider

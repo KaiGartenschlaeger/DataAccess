@@ -1,4 +1,4 @@
-﻿namespace PureSoft.DataAccess
+﻿namespace PureFreak.DataAccess
 {
     public abstract class DataQuery<TDataProvider> : DataQueryBase<TDataProvider>
         where TDataProvider : DataProvider

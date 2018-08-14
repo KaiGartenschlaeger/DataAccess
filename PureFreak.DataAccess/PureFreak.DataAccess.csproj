@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5D30F8FC-07FB-4B85-9621-A0EE9FDD3C8D}</ProjectGuid>
+    <ProjectGuid>{98E3247A-198F-4EEF-8183-2267609EFC96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PureSoft.DataAccess.EnterpriseLibrary</RootNamespace>
-    <AssemblyName>PureSoft.DataAccess.EnterpriseLibrary</AssemblyName>
+    <RootNamespace>PureFreak.DataAccess</RootNamespace>
+    <AssemblyName>PureFreak.DataAccess</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -28,17 +28,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\PureSoft.DataAccess.EnterpriseLibrary.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\PureFreak.DataAccess.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=6.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,23 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DbInputQuery.cs" />
-    <Compile Include="DbProvider.cs" />
-    <Compile Include="DbQuery.cs" />
-    <Compile Include="DataReaderExtensions.cs" />
+    <Compile Include="DataQuery.cs" />
+    <Compile Include="DataProvider.cs" />
+    <Compile Include="DataInputQuery.cs" />
+    <Compile Include="DataQueryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="PureSoft.DataAccess.EnterpriseLibrary.nuspec" />
+    <None Include="PureSoft.DataAccess.nuspec" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PureSoft.DataAccess\PureSoft.DataAccess.csproj">
-      <Project>{98E3247A-198F-4EEF-8183-2267609EFC96}</Project>
-      <Name>PureSoft.DataAccess</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

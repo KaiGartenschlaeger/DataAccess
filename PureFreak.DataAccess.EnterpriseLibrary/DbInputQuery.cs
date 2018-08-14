@@ -1,6 +1,6 @@
 ﻿using Microsoft.Practices.EnterpriseLibrary.Data;
 
-namespace PureSoft.DataAccess.EnterpriseLibrary
+namespace PureFreak.DataAccess.EnterpriseLibrary
 {
     public abstract class DbInputQuery<TInput> : DataInputQuery<DbProvider, TInput>
     {

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+
+  <metadata>
+    <id>PureFreak.DataAccess</id>
+    <version>1.0.0</version>
+    <title>PureFreak.DataAccess</title>
+    <description>A library for query based data access.</description>
+    <authors>Kai Gartenschläger</authors>
+
+    <projectUrl>https://github.com/PureFreak/DataAccess</projectUrl>
+    <!--<iconUrl></iconUrl>-->
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/PureFreak/DataAccess/master/LICENSE</licenseUrl>
+    <copyright>Copyright 2018</copyright>
+
+    <releaseNotes>Initial version</releaseNotes>
+
+    <!--<tags></tags>-->
+  </metadata>
+
+  <files>
+    <file src="bin\Release\PureFreak.DataAccess.dll" target="lib\Net45" />
+    <file src="bin\Release\PureFreak.DataAccess.xml" target="lib\Net45" />
+    <file src="bin\Release\PureFreak.DataAccess.pdb" target="lib\Net45" />
+  </files>
+
+</package>

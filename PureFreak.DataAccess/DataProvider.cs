@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PureSoft.DataAccess
+namespace PureFreak.DataAccess
 {
     public abstract class DataProvider
     {
-
     }
 }

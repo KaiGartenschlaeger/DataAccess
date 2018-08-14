@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureSoft.DataAccess.EnterpriseLibrary", "PureSoft.DataAccess.EnterpriseLibrary\PureSoft.DataAccess.EnterpriseLibrary.csproj", "{5D30F8FC-07FB-4B85-9621-A0EE9FDD3C8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureFreak.DataAccess.EnterpriseLibrary", "PureFreak.DataAccess.EnterpriseLibrary\PureFreak.DataAccess.EnterpriseLibrary.csproj", "{5D30F8FC-07FB-4B85-9621-A0EE9FDD3C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureSoft.DataAccess", "PureSoft.DataAccess\PureSoft.DataAccess.csproj", "{98E3247A-198F-4EEF-8183-2267609EFC96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureFreak.DataAccess", "PureFreak.DataAccess\PureFreak.DataAccess.csproj", "{98E3247A-198F-4EEF-8183-2267609EFC96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +27,6 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+		SolutionGuid = {115D32D7-1B80-4F76-A34F-5254EC5E3E67}
 	EndGlobalSection
-
 EndGlobal

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+
+  <metadata>
+    <id>PureFreak.DataAccess.EnterpriseLibrary</id>
+    <version>1.0.1</version>
+    <title>PureFreak.DataAccess.EnterpriseLibrary</title>
+    <description>A library for query based data access via enterprise library.</description>
+    <authors>Kai Gartenschläger</authors>
+
+    <projectUrl>https://github.com/PureFreak/DataAccess</projectUrl>
+    <!--<iconUrl></iconUrl>-->
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/PureFreak/DataAccess/master/LICENSE</licenseUrl>
+    <copyright>Copyright 2018</copyright>
+
+    <releaseNotes>Initial version</releaseNotes>
+
+    <!--<tags></tags>-->
+
+    <dependencies>
+      <dependency id="PureFreak.DataAccess" version="1.0.0" />
+      <dependency id="EnterpriseLibrary.Common" version="6.0.0" />
+      <dependency id="EnterpriseLibrary.Data" version="6.0.0" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="bin\Release\PureFreak.DataAccess.EnterpriseLibrary.dll" target="lib\Net45" />
+    <file src="bin\Release\PureFreak.DataAccess.EnterpriseLibrary.xml" target="lib\Net45" />
+    <file src="bin\Release\PureFreak.DataAccess.EnterpriseLibrary.pdb" target="lib\Net45" />
+  </files>
+
+</package>

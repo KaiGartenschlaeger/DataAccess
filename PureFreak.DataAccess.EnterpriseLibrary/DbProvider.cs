@@ -1,7 +1,7 @@
 ﻿using Microsoft.Practices.EnterpriseLibrary.Data;
 using System;
 
-namespace PureSoft.DataAccess.EnterpriseLibrary
+namespace PureFreak.DataAccess.EnterpriseLibrary
 {
     public class DbProvider : DataProvider
     {
